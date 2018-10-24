@@ -6,9 +6,19 @@ body {
     height: 100%;
     background-color: #FFD321;
     color: #626262;
+    background-image: url("https://i.pinimg.com/originals/7e/21/c9/7e21c9a256e03cc5d2b994d6248d8ccf.jpg");
+    background-attachment: fixed;
+    background-position: center;
 }
 a {
     text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  color: #DAF7A6;
 }
 
 .main {
@@ -18,3 +28,36 @@ a {
     width: 30px;
     margin: 15px;
 }
+
+.overwatch_logo {
+    width: 40px;
+    height: 30px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index {
+ font-family: 'Open Sans Condensed', sans-serif;   
+ color: orange;
+}
+
+.about {
+    font-family: 'Open Sans Condensed', sans-serif;    
+    color: orange;
+}
+
+.gallery {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: orange;
+}
+
+.main_logo {
+    width: 1370px;    
+    display: flex;
+    justify-content: center;
+}
+
