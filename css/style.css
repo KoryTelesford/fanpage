@@ -1,10 +1,11 @@
+/* Body Elements */
 html {
     height: 100%;
 }
 
 body {
-    height: 100%;
     background-color: #FFD321;
+    height: 100%;
     color: #626262;
     background-image: url("https://i.pinimg.com/originals/7e/21/c9/7e21c9a256e03cc5d2b994d6248d8ccf.jpg");
     background-attachment: fixed;
@@ -17,10 +18,16 @@ a {
 h1 {
   display: flex;
   justify-content: center;
-  font-family: 'Lobster', cursive;
+  font-family: 'Anton', sans-serif;
   color: #DAF7A6;
 }
 
+p {
+ color: white; 
+ font-family: 'Oswald', sans-serif;
+}
+
+/* Styles */
 .main {
     height: 100%;
 }
@@ -33,11 +40,6 @@ h1 {
     width: 40px;
     height: 30px;
     
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
 }
 
 .index {
@@ -61,3 +63,57 @@ h1 {
     justify-content: center;
 }
 
+/* Nav Bar */
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+ /* background-color: #aaaaaa;*/
+  color: #ABB2B9;
+}
+
+/* Style the active/current link*/
+.header active {
+  background-color: #ABB2B9;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}

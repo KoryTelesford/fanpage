@@ -5,3 +5,6 @@ $('body').click(function(){
     
 });
 
+$("a").click(function(){
+    $("p").slideUp();
+});
