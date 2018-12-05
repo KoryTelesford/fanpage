@@ -74,11 +74,11 @@ p {
 /* Style the header links */
 .header a {
   float: left;
-  color: white;
+  color: orange;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 32px; 
   line-height: 25px;
   font-family: 'Dosis', sans-serif;
 }
